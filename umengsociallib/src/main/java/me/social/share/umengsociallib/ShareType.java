@@ -6,10 +6,6 @@ package me.social.share.umengsociallib;
  */
 public enum ShareType {
     /**
-     * 分享文本
-     */
-    SHARE_TYPE_TEXT,
-    /**
      * 分享图片
      */
     SHARE_TYPE_IMAGE,

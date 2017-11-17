@@ -64,7 +64,7 @@ public class SocialShare {
         web.setDescription("my description");//描述
         new ShareAction(activity)
                 .withMedia(web)
-                .setDisplayList(SHARE_MEDIA.SINA,SHARE_MEDIA.QQ,SHARE_MEDIA.WEIXIN)
+                .setDisplayList(SHARE_MEDIA.SINA,SHARE_MEDIA.QQ,SHARE_MEDIA.QZONE,SHARE_MEDIA.WEIXIN,SHARE_MEDIA.WEIXIN_CIRCLE)
                 .open();
     }
 
