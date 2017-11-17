@@ -6,6 +6,13 @@
     android:orientation="vertical"
     tools:context="me.social.share.demo.umengsociallib.MainActivity">
 
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享面板"
+        android:onClick="shareBoard"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
